@@ -48,6 +48,10 @@ nav, p, section {
   margin: 16px;
   padding: 8px;
 }
+.contact-info p {
+margin: 5px;
+padding: 5px;
+}
 
 nav {
   display: flex;
@@ -154,6 +158,10 @@ footer{
   align-items: center;
 }
 
+.employees h2 {
+  text-align: center;
+}
+
 .employee-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -192,18 +200,22 @@ footer{
   padding: 10px;
 }
 
-.contact-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-}
-
 .home-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   text-align: center;
+}
+
+.contact-info {
+text-align: center;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
 }
 
 .home-content img {
